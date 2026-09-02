@@ -1,0 +1,82 @@
+{
+  "slug": "06-angka",
+  "order": 6,
+  "title": "Angka",
+  "learningObjective": "Mengenal angka dalam bahasa Enggano",
+  "vocabulary": [
+    { "id": "06-01", "word": "Kahai'", "translation": "Satu", "example": null, "note": null },
+    { "id": "06-02", "word": "Aru", "translation": "Dua", "example": null, "note": null },
+    { "id": "06-03", "word": "Akėr", "translation": "Tiga", "example": null, "note": null },
+    { "id": "06-04", "word": "Aop", "translation": "Empat", "example": null, "note": null },
+    { "id": "06-05", "word": "Arib", "translation": "Lima", "example": null, "note": null },
+    { "id": "06-06", "word": "Akiakin", "translation": "Enam", "example": null, "note": null },
+    { "id": "06-07", "word": "Arib hi aru", "translation": "Tujuh", "example": null, "note": null },
+    { "id": "06-08", "word": "Apai'op", "translation": "Delapan", "example": null, "note": null },
+    { "id": "06-09", "word": "Abai kahai'", "translation": "Sembilan", "example": null, "note": null },
+    { "id": "06-10", "word": "Kipã'ãũ'", "translation": "Sepuluh", "example": null, "note": null },
+    { "id": "06-11", "word": "Kipã'ãũ' kahai'", "translation": "Sebelas", "example": null, "note": null },
+    { "id": "06-12", "word": "Kipã'ãũ' aru", "translation": "Dua belas", "example": null, "note": null },
+    { "id": "06-13", "word": "Kipã'ãũ' akėr", "translation": "Tiga belas", "example": null, "note": null },
+    { "id": "06-14", "word": "Kipã'ãũ' aop", "translation": "Empat belas", "example": null, "note": null },
+    { "id": "06-15", "word": "Kipã'ãũ' arib", "translation": "Lima belas", "example": null, "note": null },
+    { "id": "06-16", "word": "Kipã'ãũ' akiakin", "translation": "Enam belas", "example": null, "note": null },
+    { "id": "06-17", "word": "Kipã'ãũ' arib hi aru", "translation": "Tujuh belas", "example": null, "note": null },
+    { "id": "06-18", "word": "Kipã'ãũ' apai'op", "translation": "Delapan belas", "example": null, "note": null },
+    { "id": "06-19", "word": "Kipã'ãũ' abai kahai'", "translation": "Sembilan belas", "example": null, "note": null },
+    { "id": "06-20", "word": "Kahai'i ekaka", "translation": "Dua puluh", "example": null, "note": null }
+  ],
+  "quizSource": "authored",
+  "quizSourceNote": "PDF sumber tidak menyediakan kuis untuk modul ini. Soal di bawah disusun agar konsisten dengan modul lain, dan SEBAIKNYA divalidasi ke narasumber bahasa Enggano sebelum dipakai final.",
+  "quiz": [
+    {
+      "id": "06-q1",
+      "question": "Apa bahasa Enggano dari angka 'Lima'?",
+      "options": [
+        { "id": "a", "text": "Arib" },
+        { "id": "b", "text": "Aru" },
+        { "id": "c", "text": "Akėr" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "06-q2",
+      "question": "'Kipã'ãũ' aru' artinya…",
+      "options": [
+        { "id": "a", "text": "Dua belas" },
+        { "id": "b", "text": "Dua puluh" },
+        { "id": "c", "text": "Dua" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "06-q3",
+      "question": "Angka 'Tujuh' dalam bahasa Enggano adalah…",
+      "options": [
+        { "id": "a", "text": "Arib hi aru" },
+        { "id": "b", "text": "Apai'op" },
+        { "id": "c", "text": "Abai kahai'" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "06-q4",
+      "question": "'Kahai'i ekaka' artinya…",
+      "options": [
+        { "id": "a", "text": "Sepuluh" },
+        { "id": "b", "text": "Dua puluh" },
+        { "id": "c", "text": "Seratus" }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "06-q5",
+      "question": "Angka 'Delapan' dalam bahasa Enggano adalah…",
+      "options": [
+        { "id": "a", "text": "Apai'op" },
+        { "id": "b", "text": "Abai kahai'" },
+        { "id": "c", "text": "Akiakin" }
+      ],
+      "correctOptionId": "a"
+    }
+  ]
+}

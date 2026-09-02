@@ -1,0 +1,71 @@
+{
+  "slug": "04-aktivitas-kata-kerja",
+  "order": 4,
+  "title": "Aktivitas Sehari-hari & Kata Kerja",
+  "learningObjective": "Pembelajar mampu menguasai kosakata kata kerja aksi harian, memahami pembentukan kata kerja yang sedang berlangsung menggunakan awalan ki-, serta mampu membuat kalimat aktivitas berbentuk positif dan negatif.",
+  "vocabulary": [
+    { "id": "04-01", "word": "No / kano", "translation": "Makan", "example": "U kano arkih. — Saya makan nasi.", "note": null },
+    { "id": "04-02", "word": "Kahai", "translation": "pergi", "example": "Am kahai i pi. — Bapak pergi ke kebun.", "note": null },
+    { "id": "04-03", "word": "Ka'karie'", "translation": "bekerja", "example": "Amda ka'karie' i pi. — Bapaknya bekerja di kebun.", "note": null },
+    { "id": "04-04", "word": "Pabuh", "translation": "Memasak", "example": "Na pabuh arkih - Ibu memasak nasi", "note": null },
+    { "id": "04-05", "word": "Pu", "translation": "Berlari", "example": "Ki pu - Dia berlari", "note": null },
+    { "id": "04-06", "word": "Ka'itar", "translation": "Bermain", "example": "Kapa-kapa ka'itar - anak-anak bermain", "note": null },
+    { "id": "04-07", "word": "Ya'tekora", "translation": "Sekolah / belajar", "example": "U kahai ya'tekora - Saya pergi belajar", "note": null },
+    { "id": "04-08", "word": "Pů", "translation": "Melihat", "example": "Pu yah he' ean - Lihat ke atas pohon itu", "note": null },
+    { "id": "04-09", "word": "Paruru", "translation": "berkumpul", "example": "Koka paruru i Yub A'hau - Keluarga berkumpul di rumah adat", "note": null },
+    { "id": "04-10", "word": "Ki-", "translation": "sedang", "example": "Kipabuh - sedang memasak", "note": "Ki- + kata kerja = Menyatakan aktivitas yang sedang berlangsung." }
+  ],
+  "quizSource": "pdf",
+  "quiz": [
+    {
+      "id": "04-q1",
+      "question": "Ibu sedang memasak di dapur. Dalam bahasa Enggano, aktivitas yang dilakukan ibu adalah…",
+      "options": [
+        { "id": "a", "text": "Kipu" },
+        { "id": "b", "text": "Ka'karie'" },
+        { "id": "c", "text": "Kipabuh" }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "04-q2",
+      "question": "Ubahlah kalimat \"U kano arkih\" menjadi kalimat negatif yang benar!",
+      "options": [
+        { "id": "a", "text": "Ik ke' kano arkih" },
+        { "id": "b", "text": "U ke'uno arkih" },
+        { "id": "c", "text": "Ki ke'ino arkih" }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "04-q3",
+      "question": "Awalan \"ki-\" yang melekat pada kata kerja menunjukkan…",
+      "options": [
+        { "id": "a", "text": "Kalimat perintah" },
+        { "id": "b", "text": "Aktivitas sudah selesai" },
+        { "id": "c", "text": "Aktivitas sedang berlangsung" }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "04-q4",
+      "question": "'Amda ka'karie' i pi' artinya...",
+      "options": [
+        { "id": "a", "text": "Bapaknya bekerja di kebun" },
+        { "id": "b", "text": "Bapaknya makan di rumah" },
+        { "id": "c", "text": "Bapaknya pergi ke pasar" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "04-q5",
+      "question": "Bentuk negasi dari \"mereka tidak makan\" dalam bahasa Enggano adalah…",
+      "options": [
+        { "id": "a", "text": "Hamė' ke' uno" },
+        { "id": "b", "text": "Hamė' ke' nano" },
+        { "id": "c", "text": "Hamė' ke' kano" }
+      ],
+      "correctOptionId": "b"
+    }
+  ]
+}

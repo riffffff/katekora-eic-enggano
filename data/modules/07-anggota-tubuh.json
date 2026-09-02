@@ -1,0 +1,72 @@
+{
+  "slug": "07-anggota-tubuh",
+  "order": 7,
+  "title": "Anggota Tubuh",
+  "learningObjective": "Mengenal anggota tubuh dalam bahasa Enggano",
+  "vocabulary": [
+    { "id": "07-01", "word": "Eiyurru", "translation": "Kepala", "example": null, "note": null },
+    { "id": "07-02", "word": "Epururuiuru", "translation": "Rambut", "example": null, "note": null },
+    { "id": "07-03", "word": "Ebak'kha", "translation": "Mata", "example": null, "note": null },
+    { "id": "07-04", "word": "Ekarihhya", "translation": "Telinga", "example": null, "note": null },
+    { "id": "07-05", "word": "Epannhu", "translation": "Hidung", "example": null, "note": null },
+    { "id": "07-06", "word": "Ekha'a", "translation": "Mulut", "example": null, "note": null },
+    { "id": "07-07", "word": "Eyahannu'a", "translation": "Leher", "example": null, "note": null },
+    { "id": "07-08", "word": "Eyapphe / Eyap", "translation": "Tangan", "example": null, "note": null },
+    { "id": "07-09", "word": "Ebahhu / Ekitai'y", "translation": "Perut", "example": null, "note": null },
+    { "id": "07-10", "word": "Eeya'i", "translation": "Kaki", "example": null, "note": null }
+  ],
+  "quizSource": "authored",
+  "quizSourceNote": "PDF sumber tidak menyediakan kuis untuk modul ini. Soal di bawah disusun agar konsisten dengan modul lain, dan SEBAIKNYA divalidasi ke narasumber bahasa Enggano sebelum dipakai final.",
+  "quiz": [
+    {
+      "id": "07-q1",
+      "question": "Bahasa Enggano untuk 'Mata' adalah…",
+      "options": [
+        { "id": "a", "text": "Ebak'kha" },
+        { "id": "b", "text": "Ekarihhya" },
+        { "id": "c", "text": "Epannhu" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "07-q2",
+      "question": "'Eyapphe' artinya…",
+      "options": [
+        { "id": "a", "text": "Kaki" },
+        { "id": "b", "text": "Tangan" },
+        { "id": "c", "text": "Perut" }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "07-q3",
+      "question": "Bagian tubuh untuk mendengar disebut…",
+      "options": [
+        { "id": "a", "text": "Ekarihhya" },
+        { "id": "b", "text": "Ekha'a" },
+        { "id": "c", "text": "Eyahannu'a" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "07-q4",
+      "question": "'Eiyurru' artinya…",
+      "options": [
+        { "id": "a", "text": "Kepala" },
+        { "id": "b", "text": "Rambut" },
+        { "id": "c", "text": "Leher" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "07-q5",
+      "question": "Sebutan lain untuk 'Perut' selain Ebahhu adalah…",
+      "options": [
+        { "id": "a", "text": "Ekitai'y" },
+        { "id": "b", "text": "Eeya'i" },
+        { "id": "c", "text": "Epururuiuru" }
+      ],
+      "correctOptionId": "a"
+    }
+  ]
+}

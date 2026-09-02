@@ -1,0 +1,73 @@
+{
+  "slug": "03-lokasi-arah",
+  "order": 3,
+  "title": "Lokasi, Arah & Kata Depan",
+  "learningObjective": "Mampu mengidentifikasi, menggunakan, dan merangkai kata depan (preposisi) penunjuk lokasi serta mengajukan pertanyaan seputar arah dan posisi benda dalam Bahasa Enggano.",
+  "vocabulary": [
+    { "id": "03-01", "word": "I", "translation": "di/ke/pada", "example": "U kahai i pasar. — Saya pergi ke pasar.", "note": "Preposisi penunjuk keberadaan dan tujuan" },
+    { "id": "03-02", "word": "Kur", "translation": "dari", "example": "U kur Enggano. — Saya berasal dari Enggano", "note": "Preposisi penunjuk asal" },
+    { "id": "03-03", "word": "I bak", "translation": "Di depan", "example": "Kiki i bak yub. — Ada di depan rumah.", "note": null },
+    { "id": "03-04", "word": "I kãhã", "translation": "Di belakang", "example": "Kiki i kãhã yub. — Ada di belakang rumah.", "note": null },
+    { "id": "03-05", "word": "I teb", "translation": "Di atas", "example": "Kiki i teb beya. — Ada di atas meja.", "note": null },
+    { "id": "03-06", "word": "I top", "translation": "Di bawah/di kolong", "example": "Kiki i top yub. — Ada di kolong rumah.", "note": null },
+    { "id": "03-07", "word": "i pẽ / i pẽ'ẽ", "translation": "Di samping/di sebelah", "example": "Kiki i pẽ yub. — Ada di samping rumah.", "note": "i pẽ = di samping (untuk benda). i pẽ'ẽ = di samping (untuk orang)" },
+    { "id": "03-08", "word": "I heo", "translation": "Di dalam", "example": "Kiki i heo yuba'. — Ada di dalam rumah saya.", "note": null },
+    { "id": "03-09", "word": "i yapãũ", "translation": "Di atas puncak", "example": "I yãpãũ hĩũ po. — Di atas puncak buah kelapa.", "note": null },
+    { "id": "03-10", "word": "I'iah", "translation": "Di mana/kemana", "example": "I'iah e'yai de? - Dimana ikannya? | Ė' kahai i'iah? — U kahai i pi. | Kamu pergi ke mana? - Saya pergi ke kebun.", "note": null },
+    { "id": "03-11", "word": "Ite'", "translation": "Di sini", "example": "U kiki ite' - Saya ada di sini", "note": null },
+    { "id": "03-12", "word": "Dit", "translation": "Di sana", "example": "Kiki dit - Ada di sana", "note": null }
+  ],
+  "quizSource": "pdf",
+  "quiz": [
+    {
+      "id": "03-q1",
+      "question": "Arti \"di belakang\" dalam bahasa Enggano adalah…",
+      "options": [
+        { "id": "a", "text": "I teb" },
+        { "id": "b", "text": "i kãhã" },
+        { "id": "c", "text": "I top" }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "03-q2",
+      "question": "Preposisi untuk menyatakan asal ('dari') dalam bahasa Enggano adalah…",
+      "options": [
+        { "id": "a", "text": "Ite" },
+        { "id": "b", "text": "I" },
+        { "id": "c", "text": "Kur" }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "03-q3",
+      "question": "A: \"Ė' kahai i'iah?\" B: \"U kahai i pi.\" Ke mana si B pergi?",
+      "options": [
+        { "id": "a", "text": "Ke kebun" },
+        { "id": "b", "text": "Ke pasar" },
+        { "id": "c", "text": "Ke sekolah" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "03-q4",
+      "question": "Ada kucing di kolong rumah. Bahasa Enggano dari \"di kolong\" adalah…",
+      "options": [
+        { "id": "a", "text": "I heo yub" },
+        { "id": "b", "text": "I top yub" },
+        { "id": "c", "text": "I teb yub" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "03-q5",
+      "question": "Bagaimana terjemahan bahasa Enggano dari kalimat \"Saya ada di sini.\"?",
+      "options": [
+        { "id": "a", "text": "U kur i'iah" },
+        { "id": "b", "text": "Kahai i u" },
+        { "id": "c", "text": "U kiki ite'" }
+      ],
+      "correctOptionId": "c"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "slug": "01-salam-sapaan",
+  "order": 1,
+  "title": "Salam, Sapaan & Perkenalan Diri",
+  "learningObjective": "Pembelajar mampu menguasai pengetahuan tentang penggunaan kata ganti kepemilikan yang merujuk pada orang ketiga tunggal.",
+  "vocabulary": [
+    { "id": "01-01", "word": "Yauwaika/Yaudaik", "translation": "Selamatlah kita", "example": "Yauwaika - Selamatlah kita", "note": "Yau = baik/selamat, daik = lah kita. Salam yang digunakan saat acara adat (yahbiku), gereja (kereya)" },
+    { "id": "01-02", "word": "U", "translation": "Saya", "example": "U kahai pasar - saya pergi ke pasar", "note": null },
+    { "id": "01-03", "word": "Ė'", "translation": "Kamu", "example": "Ė' kahėr e'yai - Kamu mencari ikan", "note": null },
+    { "id": "01-04", "word": "Ki", "translation": "Dia", "example": "Ki buhno - Dia mau makan. Ki kino - Dia makan", "note": null },
+    { "id": "01-05", "word": "Ik", "translation": "Kita", "example": "Ik kipari' yub - Kita membuat rumah", "note": null },
+    { "id": "01-06", "word": "A", "translation": "Kami", "example": "A kahai pi - Kami pergi ke kebun", "note": null },
+    { "id": "01-07", "word": "Ari", "translation": "Kalian", "example": "Ari kino - Kalian makan", "note": null },
+    { "id": "01-08", "word": "Hamė' / ki", "translation": "Mereka", "example": "Hamė' ka - Mereka datang. Hamė' kipuak - Mereka pergi", "note": null },
+    { "id": "01-09", "word": "Niė' ...", "translation": "Nama saya ...", "example": "Niė' Gaga - Nama saya Gaga", "note": null },
+    { "id": "01-10", "word": "U kur ...", "translation": "Saya dari ...", "example": "U kur Enggano - Saya dari Enggano", "note": null },
+    { "id": "01-11", "word": "Umunu' ... tahun", "translation": "Umur saya ... tahun", "example": "Umunu' 12 tahun - Umur saya 12 tahun", "note": null },
+    { "id": "01-12", "word": "Hã niė'm?", "translation": "Siapa namamu?", "example": "Halo! Hã niė'm - Halo! Siapa namamu?", "note": null },
+    { "id": "01-13", "word": "Ė' kur i'iah?", "translation": "Dari mana kamu?", "example": "Ė' kur i'iah? - U kur Enggano | Dari mana kamu? - Saya dari Enggano", "note": null },
+    { "id": "01-14", "word": "Apiah umunum?", "translation": "Berapa umurmu?", "example": "Apiah umunum? - Umunu' 12 tahun", "note": null },
+    { "id": "01-15", "word": "E'b parau'ah!", "translation": "Hati-hati!", "example": "E'b parau'ah! - Uah pe'ah | Hati-hati! - Saya pergi dulu, ya", "note": null },
+    { "id": "01-16", "word": "Tena bahob pakõ' be ė", "translation": "Senang bertemu dengan Anda", "example": null, "note": null },
+    { "id": "01-17", "word": "Arė, Kinėn de ki yap?", "translation": "Bagaimana kabarmu?", "example": null, "note": null },
+    { "id": "01-18", "word": "Yãbde da iyė", "translation": "Saya mohon maaf", "example": null, "note": null },
+    { "id": "01-19", "word": "Mėk ėm nė'ah", "translation": "Terima kasih", "example": null, "note": null },
+    { "id": "01-20", "word": "Na'an kaipakob!", "translation": "Sampai jumpa lagi!", "example": null, "note": null }
+  ],
+  "quizSource": "pdf",
+  "quiz": [
+    {
+      "id": "01-q1",
+      "question": "\"Yauwaika! Hã niė'm?\" Jawaban yang tepat adalah",
+      "options": [
+        { "id": "a", "text": "Niė' Budi. U kur Bakaor" },
+        { "id": "b", "text": "U kahai pasar." },
+        { "id": "c", "text": "E'b parau'ah!" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "01-q2",
+      "question": "Apa makna etimologis dari Yauwaika?",
+      "options": [
+        { "id": "a", "text": "Selamatlah kita" },
+        { "id": "b", "text": "Sampai jumpa" },
+        { "id": "c", "text": "Terima kasih" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "01-q3",
+      "question": "Kata ganti \"kami\" dalam bahasa Enggano adalah…",
+      "options": [
+        { "id": "a", "text": "Ari" },
+        { "id": "b", "text": "Ik" },
+        { "id": "c", "text": "A" }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "01-q4",
+      "question": "'Ė' kahuar e'yai' artinya",
+      "options": [
+        { "id": "a", "text": "Kamu mencari ikan" },
+        { "id": "b", "text": "Dia makan ikan" },
+        { "id": "c", "text": "Kita membuat rumah" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "01-q5",
+      "question": "[pasar] [U] [kahai] — Susunan kalimat yang benar adalah…",
+      "options": [
+        { "id": "a", "text": "Pasar kahai U" },
+        { "id": "b", "text": "U kahai pasar" },
+        { "id": "c", "text": "Kahai U pasar" }
+      ],
+      "correctOptionId": "b"
+    }
+  ]
+}

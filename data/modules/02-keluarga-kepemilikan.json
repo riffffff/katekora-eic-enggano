@@ -1,0 +1,77 @@
+{
+  "slug": "02-keluarga-kepemilikan",
+  "order": 2,
+  "title": "Anggota Keluarga & Kepemilikan",
+  "learningObjective": "Mengenal sebutan anggota keluarga (koka) dan menguasai tata bahasa menyatakan kepemilikan/hak milik.",
+  "vocabulary": [
+    { "id": "02-01", "word": "Koka", "translation": "keluarga/kerabat", "example": "Koka u. — Keluarga saya.", "note": "Her Heo Yuba' = suasana di dalam rumah" },
+    { "id": "02-02", "word": "Am", "translation": "ayah/bapak", "example": "Am kahai i pi. — Bapak pergi ke kebun.", "note": null },
+    { "id": "02-03", "word": "Na", "translation": "Ibu", "example": "Na kipabuh arkih. — Ibu sedang memasak nasi.", "note": null },
+    { "id": "02-04", "word": "A'", "translation": "kakak", "example": "A' kahai tekora. — Kakak pergi sekolah.", "note": null },
+    { "id": "02-05", "word": "Yẽãh", "translation": "adik", "example": "Yẽãh kaitar - adik sedang bermain", "note": null },
+    { "id": "02-06", "word": "Ane' man", "translation": "Saudara laki-laki", "example": "Ki ane' man - Dia saudara laki-laki.", "note": null },
+    { "id": "02-07", "word": "Ane' ẽ'ĩũ", "translation": "Saudara perempuan", "example": "Ki ane' ẽ'ĩũ - Dia saudara perempuan", "note": null },
+    { "id": "02-08", "word": "Iar", "translation": "anak", "example": "Iar a' - anak saya", "note": null },
+    { "id": "02-09", "word": "Dar", "translation": "suami", "example": "Man ean dar Suma. — Laki-laki itu suami Suma", "note": null },
+    { "id": "02-10", "word": "Hiuna", "translation": "istri", "example": "Hiud ean hiuna Gaga - perempuan itu istri Gaga", "note": null },
+    { "id": "02-11", "word": "Ũp man", "translation": "Kakek", "example": "Ũp man kiki i yub - kakek ada di rumah", "note": null },
+    { "id": "02-12", "word": "Ũp hiur", "translation": "nenek", "example": "Ũp hiur kiki i yub - nenek ada di rumah", "note": null },
+    { "id": "02-13", "word": "Yuba'", "translation": "Rumah saya / rumahku", "example": "Kiki i heo yuba'. — Ada di dalam rumah saya.", "note": "yub + akhiran -a' (milik saya)" },
+    { "id": "02-14", "word": "Yubam", "translation": "Rumah kamu / rumahmu", "example": "Ean yubam. — Itu rumah kamu.", "note": "yub + akhiran -am (milik kamu)" },
+    { "id": "02-15", "word": "Yubak", "translation": "Rumah kita", "example": "Ean yubak - Itu rumah kita.", "note": "yub + akhiran -ak (milik kita)" },
+    { "id": "02-16", "word": "Yubde", "translation": "Rumahnya", "example": "Suma kahai' yub. Ean yubde. — Suma pulang ke rumah. Itu rumahnya.", "note": "yub + akhiran -de (miliknya)" }
+  ],
+  "quizSource": "pdf",
+  "quiz": [
+    {
+      "id": "02-q1",
+      "question": "Ubahlah kata 'yub' menjadi 'rumahmu'?",
+      "options": [
+        { "id": "a", "text": "Yubam" },
+        { "id": "b", "text": "Yuba'" },
+        { "id": "c", "text": "Yubde" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "02-q2",
+      "question": "\"Suma kahai' yub. Ean yubde.\" Siapa pemilik rumah itu?",
+      "options": [
+        { "id": "a", "text": "Rumah kamu" },
+        { "id": "b", "text": "Rumah saya" },
+        { "id": "c", "text": "Rumah Suma" }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "02-q3",
+      "question": "'Na kipabuh arkih' artinya...",
+      "options": [
+        { "id": "a", "text": "Ibu makan nasi" },
+        { "id": "b", "text": "Ibu memasak nasi" },
+        { "id": "c", "text": "Ibu pergi ke kebun" }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "02-q4",
+      "question": "Sebutan untuk saudara perempuan adalah...",
+      "options": [
+        { "id": "a", "text": "Ũp hiur" },
+        { "id": "b", "text": "Ane' ẽ'ĩũ" },
+        { "id": "c", "text": "Na" }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "02-q5",
+      "question": "[i pi] [kahai] [Amde] — Susunan kalimat yang benar adalah…",
+      "options": [
+        { "id": "a", "text": "I pi amde kahai" },
+        { "id": "b", "text": "Kahai amde i pi" },
+        { "id": "c", "text": "Amde kahai pi" }
+      ],
+      "correctOptionId": "c"
+    }
+  ]
+}

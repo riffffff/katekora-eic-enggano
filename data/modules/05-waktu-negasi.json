@@ -1,0 +1,71 @@
+{
+  "slug": "05-waktu-negasi",
+  "order": 5,
+  "title": "Keterangan Waktu & Kalimat Negasi",
+  "learningObjective": "Pembelajar mampu menyebutkan keterangan waktu dasar (hari, jam, momen), bertanya tentang waktu, serta menggunakan kata negasi (sanggahan) untuk menolak atau menyangkal suatu pernyataan.",
+  "vocabulary": [
+    { "id": "05-01", "word": "Nė'ėn", "translation": "sekarang", "example": "U kano arkih nė'ėn. — Saya makan nasi sekarang.", "note": null },
+    { "id": "05-02", "word": "Na'an", "translation": "nanti", "example": "Na'an a kahai i pi - nanti kami pergi ke kebun", "note": null },
+    { "id": "05-03", "word": "Pamahum", "translation": "sore", "example": "Pamahum kak kahai' yub - Orang pulang ke rumah sore hari", "note": null },
+    { "id": "05-04", "word": "Jam apiah", "translation": "Jam berapa", "example": "Jam apiah ė' kahai? — Jam berapa kamu pergi?", "note": null },
+    { "id": "05-05", "word": "Hapu' ẽ'", "translation": "Hari ini", "example": "Ki ke' ya'tekora hapu' ẽ'. — Dia tidak sekolah hari ini.", "note": null },
+    { "id": "05-06", "word": "No'man", "translation": "Besok", "example": "U kahai no'man - saya akan pergi besok", "note": null },
+    { "id": "05-07", "word": "Ke'", "translation": "tidak", "example": "U ke' uno nė'ėn. — Saya tidak makan sekarang.", "note": "Menegasikan aktivitas" },
+    { "id": "05-08", "word": "Kep", "translation": "Belum", "example": "A kep kahai nė'ėn - Kami belum pergi sekarang", "note": null },
+    { "id": "05-09", "word": "Ke'pãn", "translation": "bukan", "example": "Ean ke'pãn e'yai. — Itu bukan ikan.", "note": null },
+    { "id": "05-10", "word": "Ke' abuhai", "translation": "Tidak (menolak)", "example": "Ke' abuhai, mėk ėm nė'ah - Tidak, terima kasih", "note": null }
+  ],
+  "quizSource": "pdf",
+  "quiz": [
+    {
+      "id": "05-q1",
+      "question": "\"Ean ___ yuba'.\" (Itu bukan rumah saya). Kata yang tepat untuk melengkapi kalimat tersebut adalah...",
+      "options": [
+        { "id": "a", "text": "Kap" },
+        { "id": "b", "text": "Ke'" },
+        { "id": "c", "text": "Ke'pãn" }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "05-q2",
+      "question": "\"Am ___ kahai i pi.\" (Bapak tidak pergi ke kebun). Kata yang tepat untuk melengkapi kalimat tersebut adalah...",
+      "options": [
+        { "id": "a", "text": "Ke'" },
+        { "id": "b", "text": "Ke' abuhai" },
+        { "id": "c", "text": "Kep" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "05-q3",
+      "question": "Kamu sudah kenyang, tetapi temanmu menawarkan makanan. Ungkapan yang tepat untuk menolak makanan dari teman tersebut adalah…",
+      "options": [
+        { "id": "a", "text": "Ya'u, u kano" },
+        { "id": "b", "text": "Ke' abuhai, mėk ėm nė'ah" },
+        { "id": "c", "text": "Kep, u ke' uno nė'ėn" }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "05-q4",
+      "question": "Terjemahan yang benar dari \"Pamahum\", yaitu…",
+      "options": [
+        { "id": "a", "text": "Sekarang" },
+        { "id": "b", "text": "Pagi" },
+        { "id": "c", "text": "Sore" }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "05-q5",
+      "question": "\"Na'an ki kahai i pi\". Berdasarkan kalimat tersebut, kapan dia pergi?",
+      "options": [
+        { "id": "a", "text": "Nanti" },
+        { "id": "b", "text": "Besok" },
+        { "id": "c", "text": "Sekarang" }
+      ],
+      "correctOptionId": "a"
+    }
+  ]
+}

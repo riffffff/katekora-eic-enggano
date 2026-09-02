@@ -1,0 +1,61 @@
+{
+  "salutation": "Yauwaika!",
+  "title": "Selamat Datang di Ka’tekora Eic Enggano",
+  "aboutPlatform": {
+    "title": "Tentang Platform",
+    "description": "Ka’tekora Eic Enggano adalah sebuah platform pembelajaran digital interaktif yang dirancang khusus untuk memperkenalkan dan melestarikan bahasa Enggano kepada para pemula."
+  },
+  "purpose": {
+    "title": "Tujuan",
+    "description": "Bahasa Enggano merupakan salah satu kekayaan linguistik dan aset budaya nusantara yang berharga di Pulau Enggano. Website ini dibuat sebagai dedikasi nyata dari program Kuliah Kerja Nyata (KKN) Universitas Gadjah Mada tahun 2026 dengan tujuan:",
+    "points": [
+      "Menyediakan media ajar digital yang interaktif dan mudah diakses.",
+      "Membantu memudahkan pendatang maupun masyarakat luas yang ingin mempelajari bahasa dan budaya Enggano.",
+      "Mendukung upaya digitalisasi dan pelestarian bahasa daerah yang terancam punah."
+    ]
+  },
+  "learningSources": {
+    "title": "Sumber Materi Pembelajaran",
+    "items": [
+      {
+        "title": "Kamus Bahasa Enggano (Edisi 2025)",
+        "author": "I Wayan Arka, Dendi Wijaya, Engga Zakaria Sangian, Charlotte Hemmings, dan Gede Primahadi W. Rajeg."
+      },
+      {
+        "title": "Buku Ajar SD: Bangga Menjadi Anak Enggano",
+        "author": "Materi Muatan Lokal Pendidikan Dasar Pulau Enggano."
+      },
+      {
+        "title": "Buku Ajar SMP Kelas VII: PIHIA 'YIC ENGGANO VII: Terampil Berbahasa Enggano",
+        "author": "Engga Zakaria Sangian, Charlotte Hemmings, Arono, Gede Primahadi W. Rajeg, dan I Wayan Arka."
+      },
+      {
+        "title": "Buku Saku Bahasa Enggano",
+        "author": "Diska Malikhatu Zakiyah Nurin KKN-PPM UGM Pulau Enggano 2025."
+      },
+      {
+        "title": "Buku Himpunan Adat-Istiadat dan Seni Budaya Asli Pulau Enggano",
+        "author": "Penerbit Lembaga Adat Pulau Enggano."
+      }
+    ]
+  },
+  "contributors": {
+    "team": {
+      "role": "Tim Penyusun",
+      "members": [
+        "Ana Fatimah",
+        "Muhammad Rifai Firdaus"
+      ],
+      "institution": "KKN-PPM Universitas Gadjah Mada 2026"
+    },
+    "consultant": {
+      "role": "Narasumber Bahasa Enggano",
+      "name": "Resyawati, S.Pd",
+      "title": "Pendidik & Penutur Bahasa Enggano"
+    }
+  },
+  "closing": {
+    "message": "Mari bersama-sama menjaga dan melestarikan kekayaan bahasa daerah! Selamat belajar!",
+    "action": "Mulai Belajar Modul"
+  }
+}
