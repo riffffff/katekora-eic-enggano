@@ -22,7 +22,7 @@ export default function PageHeader({
 }: PageHeaderProps) {
   return (
     <div className={`w-full bg-[#fbf9f5] border-b border-[#efeeea] ${className}`}>
-      <div className="page-container flex items-center justify-between py-3.5 sm:py-4 gap-3">
+      <div className="flex items-center justify-between py-3.5 sm:py-4 gap-3 w-full px-4 sm:px-6 lg:w-[80%] lg:px-0 mx-auto">
         {/* Breadcrumbs & Navigation */}
         <div className="flex items-center gap-2.5 min-w-0">
           {showBack && (

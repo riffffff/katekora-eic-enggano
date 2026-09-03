@@ -13,7 +13,7 @@ export default function QuizProgressBar({
 
   return (
     <div className="w-full bg-white border-b border-[#efeeea] shadow-xs">
-      <div className="max-w-3xl mx-auto px-4 sm:px-6 py-3 flex items-center gap-4">
+      <div className="max-w-5xl mx-auto px-4 sm:px-6 py-3 flex items-center gap-4">
         <div className="flex items-center gap-2 shrink-0 text-sm font-display font-semibold text-[#3f4944]">
           <span className="w-7 h-7 rounded-full bg-[#004532] text-white flex items-center justify-center text-xs font-bold">
             {step}

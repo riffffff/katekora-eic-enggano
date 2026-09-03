@@ -44,7 +44,7 @@ export default function QuizClient({ module }: { module: ModuleData }) {
       )}
 
       {/* Quiz content — centered, max width for readability */}
-      <div className="flex-1 flex flex-col w-full max-w-3xl mx-auto pb-12 md:pb-16">
+      <div className="flex-1 flex flex-col w-full pb-10 md:pb-12">
         {!isFinished ? (
           <QuizQuestion
             key={module.quiz[currentIndex].id}

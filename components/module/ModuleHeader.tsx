@@ -13,7 +13,7 @@ export default function ModuleHeader({ module }: ModuleHeaderProps) {
       <div className="absolute -right-20 -top-20 w-80 h-80 rounded-full bg-white/5 pointer-events-none blur-2xl" />
       <div className="absolute right-1/4 bottom-0 w-48 h-48 rounded-full bg-[#86f2e4]/10 pointer-events-none blur-3xl" />
 
-      <div className="page-container relative z-10 py-8 sm:py-10 md:py-12 space-y-5">
+      <div className="relative z-10 py-8 sm:py-10 md:py-12 space-y-5 w-full px-4 sm:px-6 lg:w-[80%] lg:px-0 mx-auto">
         {/* Top bar: Module Tag only */}
         <div className="flex flex-wrap items-center gap-3">
           <span className="px-3 py-1 rounded-lg bg-[#86f2e4]/20 text-[#86f2e4] text-xs font-bold font-display border border-[#86f2e4]/30 uppercase tracking-wider">

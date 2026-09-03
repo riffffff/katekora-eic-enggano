@@ -20,9 +20,9 @@ export default function ModulesPage() {
         backHref="/"
       />
 
-      <div className="page-container py-8 sm:py-10 pb-12 md:pb-16">
+      <div className="py-8 sm:py-10 pb-12 md:pb-16 w-full px-4 sm:px-6 lg:w-[80%] lg:px-0 mx-auto">
         {/* Grid — Staggered entry animation */}
-        <StaggerContainer className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5" stagger={0.07}>
+        <StaggerContainer className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5 items-stretch" stagger={0.07}>
           {modules.map((m) => (
             <StaggerItem key={m.slug}>
               <ModuleCard module={m} />

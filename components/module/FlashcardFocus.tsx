@@ -83,7 +83,7 @@ export default function FlashcardFocus({
           damping: 26,
           stiffness: 340,
         }}
-        className="relative w-full max-w-sm sm:max-w-md flex flex-col items-center gap-4"
+        className="relative w-full max-w-md sm:max-w-lg lg:max-w-3xl flex flex-col items-center gap-4"
       >
         {/* Counter & Close (Clean — no countdown text) */}
         <div className="flex items-center justify-between w-full px-1">
@@ -106,7 +106,7 @@ export default function FlashcardFocus({
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.2 }}
           onClick={onFlip}
-          className="perspective-1000 w-full h-[280px] sm:h-[320px] cursor-pointer select-none"
+          className="perspective-1000 w-full h-[280px] sm:h-[320px] lg:h-[420px] cursor-pointer select-none"
           role="button"
           tabIndex={0}
           aria-label={`Kartu kosakata ${item.word}, ketuk untuk balik`}
@@ -189,20 +189,17 @@ export default function FlashcardFocus({
           </button>
 
           {/* Dot indicators */}
-          <div className="flex items-center gap-1.5 flex-wrap justify-center max-w-[160px]">
-            {items.slice(0, 10).map((_, i) => (
+          <div className="flex items-center gap-1.5 overflow-x-auto max-w-[280px] sm:max-w-[400px] px-2 scrollbar-hide justify-center">
+            {items.map((_, i) => (
               <span
                 key={i}
-                className={`rounded-full transition-all ${
+                className={`rounded-full transition-all shrink-0 ${
                   i === activeIndex
-                    ? "w-4 h-2 bg-[#86f2e4]"
+                    ? "w-4 h-2 bg-[#ffa86a]"
                     : "w-1.5 h-1.5 bg-white/30"
                 }`}
               />
             ))}
-            {items.length > 10 && (
-              <span className="text-white/40 text-[10px] font-mono">+{items.length - 10}</span>
-            )}
           </div>
 
           <button

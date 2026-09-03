@@ -61,11 +61,11 @@ export default function ModuleCard({ module }: ModuleCardProps) {
   };
 
   return (
-    <Link href={`/modules/${module.slug}`} className="block group">
+    <Link href={`/modules/${module.slug}`} className="block group h-full">
       <Card
         interactive
         rounded="2xl"
-        className="p-5 bg-white border border-[#efeeea] group-hover:border-[#006a61]/40 transition-all shadow-xs group-hover:shadow-md"
+        className="p-5 bg-white border border-[#efeeea] group-hover:border-[#006a61]/40 transition-all shadow-xs group-hover:shadow-md h-full flex flex-col"
       >
         <div className="flex items-center justify-between gap-3 mb-3">
           <div className="flex items-center gap-2.5">
@@ -79,7 +79,7 @@ export default function ModuleCard({ module }: ModuleCardProps) {
           {renderStatusIndicator()}
         </div>
 
-        <h3 className="font-display font-bold text-lg text-[#1b1c1a] group-hover:text-[#004532] transition-colors leading-snug mb-3 sm:mb-4">
+        <h3 className="font-display font-bold text-lg text-[#1b1c1a] group-hover:text-[#004532] transition-colors leading-snug mb-3 sm:mb-4 flex-1">
           {module.title}
         </h3>
 

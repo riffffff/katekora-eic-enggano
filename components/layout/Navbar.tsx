@@ -20,12 +20,9 @@ export default function Navbar() {
     <header className={`sticky top-0 z-50 w-full bg-white/95 backdrop-blur-md border-b border-[#efeeea] shadow-xs ${
       pathname === "/" ? "hidden md:block" : "hidden md:block"
     }`}>
-      <div className="page-container flex items-center justify-between h-16">
+      <div className="flex items-center justify-between h-16 w-full px-4 sm:px-6 lg:w-[80%] lg:px-0 mx-auto">
         {/* Brand */}
         <Link href="/" className="flex items-center gap-3 group shrink-0">
-          <div className="w-10 h-10 rounded-2xl bg-gradient-to-br from-[#004532] to-[#006a61] text-white flex items-center justify-center font-display font-black text-lg shadow-xs group-hover:shadow-md transition-all">
-            K
-          </div>
           <div className="leading-tight">
             <div className="font-display font-black text-[#004532] text-base tracking-tight group-hover:text-[#065f46] transition-colors">
               Ka&apos;tekora Eic Enggano

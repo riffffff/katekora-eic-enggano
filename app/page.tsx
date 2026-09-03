@@ -33,21 +33,21 @@ export default function HomePage() {
   ];
 
   return (
-    <PageTransition className="space-y-8 sm:space-y-12 pb-12 md:pb-16 text-center">
+    <PageTransition className="space-y-10 sm:space-y-12 pb-12 md:pb-16 text-center">
       {/* ===== HERO SECTION — DUAL HERO INTERAKTIF & SEAMLESS ===== */}
-      <section className="w-full bg-gradient-to-br from-[#004532] via-[#065f46] to-[#006a61] relative overflow-hidden text-white">
+      <section className="w-full bg-gradient-to-br from-[#004532] via-[#065f46] to-[#006a61] relative overflow-hidden text-white lg:min-h-[75vh] lg:flex lg:items-center">
         {/* Decorative lighting & shapes */}
         <div className="absolute -right-24 -top-24 w-96 h-96 rounded-full bg-white/5 pointer-events-none blur-2xl" />
         <div className="absolute left-1/3 bottom-0 w-80 h-80 rounded-full bg-[#86f2e4]/10 pointer-events-none blur-3xl" />
 
-        <div className="page-container relative z-10 py-9 sm:py-12 md:py-16 space-y-6 sm:space-y-8">
+        <div className="relative z-10 py-8 sm:py-10 lg:py-6 space-y-4 sm:space-y-6 lg:space-y-12 w-full px-4 sm:px-6 lg:w-[80%] lg:px-0 mx-auto">
           {/* =========================================================================
               SLOT LOGO KKN PPM UGM & TIM KKN (KAANEK ENGGANO)
               Simpan file gambar di:
               - public/images/logo-ugm.png
               - public/images/logo-tim-kkn.png
              ========================================================================= */}
-          <div className="flex flex-col items-center justify-center gap-2 sm:gap-2.5">
+          <div className="flex flex-col items-center justify-center gap-2 sm:gap-2.5 ">
             {/* 2 Logo: KKN PPM UGM & Tim KKN */}
             <div className="flex items-center justify-center gap-3.5">
               {/* Logo 1: KKN PPM UGM */}
@@ -94,23 +94,23 @@ export default function HomePage() {
           </div>
 
           {/* DUAL HERO GRID */}
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-4 sm:gap-6 lg:gap-12 items-center">
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-4 sm:gap-6 lg:gap-6 items-center lg:items-start">
             {/* Sisi Kiri / Atas: Headline & Deskripsi */}
-            <div className="lg:col-span-7 space-y-3 sm:space-y-4 text-center lg:text-left">
+            <div className="lg:col-span-7 space-y-4 sm:space-y-5 lg:space-y-6 text-center lg:text-left">
               <FadeIn direction="left" delay={0.1}>
                 <h1 className="font-display font-black text-3xl sm:text-4xl md:text-5xl lg:text-6xl leading-tight tracking-tight text-white text-center lg:text-left">
                   Ka&apos;tekora <br className="hidden sm:inline" />
-                  <span className="text-[#86f2e4]">Eic Enggano</span>
+                  <span className="text-[#ffa86a]">Eic Enggano</span>
                 </h1>
 
-                <p className="text-sm sm:text-base md:text-lg text-white/90 leading-relaxed max-w-xl mx-auto lg:mx-0 text-center lg:text-left mt-3">
-                  Platform edukatif belajar bahasa Enggano untuk pemula, wisatawan, dan pelajar.
-                  Kuasai kosakata asli, lafal ortografi diakritik nasal (<code className="bg-black/20 text-[#86f2e4] px-1.5 py-0.5 rounded font-bold">ã, ẽ, ĩ, Ė&apos;</code>),
+                <p className="text-sm sm:text-base md:text-lg text-white/90 leading-relaxed mx-auto lg:mx-0 text-center lg:text-left mt-3">
+                  Platform edukatif belajar bahasa Enggano untuk pemula, wisatawan, dan pelajar. <br className="hidden lg:inline" />
+                  Kuasai kosakata asli, lafal ortografi diakritik nasal (<code className="bg-black/20 text-[#ffa86a] px-1.5 py-0.5 rounded font-bold">ã, ẽ, ĩ, Ė&apos;</code>), <br className="hidden lg:inline" />
                   serta uji pemahamanmu secara mandiri.
                 </p>
 
                 {/* CTA Button Khusus Desktop — Mengarahkan ke /modules */}
-                <div className="hidden lg:flex justify-start pt-3">
+                <div className="hidden lg:flex justify-start pt-4">
                   <Link
                     href="/modules"
                     className="inline-flex items-center justify-center gap-2.5 bg-[#faf6ee] text-[#004532] hover:bg-white hover:text-[#002d20] rounded-full font-display font-black text-base px-9 py-4 shadow-xl transition-all hover:scale-[1.02] active:scale-95 border border-[#eae8e4]"
@@ -122,21 +122,12 @@ export default function HomePage() {
               </FadeIn>
             </div>
 
-            {/* Sisi Kanan / Bawah: LIVE INTERACTIVE FLASHCARD DEMO & CTA MOBILE */}
-            <div className="lg:col-span-5 flex flex-col items-center w-full">
-              <FadeIn direction="right" delay={0.2} className="w-full max-w-sm sm:max-w-md">
-                {/* Tulisan Coba Kartu Kosakata: Mepet Kiri */}
-                <div className="flex items-center justify-start text-left mb-1.5 px-1">
-                  <span className="text-xs text-[#86f2e4] font-display font-bold uppercase tracking-wider inline-flex items-center gap-1.5">
-                    <Sparkles className="w-3.5 h-3.5 text-[#86f2e4]" />
-                    <span>Coba Kartu Kosakata</span>
-                  </span>
-                </div>
-
+            <div className="lg:col-span-5 flex flex-col items-center w-full lg:justify-start">
+              <FadeIn direction="right" delay={0.2} className="w-full">
                 {/* 3D Flip Card Demo with periodic 2-second shake animation */}
                 <div
                   onClick={() => setIsDemoFlipped((prev) => !prev)}
-                  className="perspective-1000 w-full h-[220px] sm:h-[250px] cursor-pointer select-none group animate-subtle-shake mx-auto"
+                  className={`perspective-1000 w-full h-[220px] sm:h-[250px] lg:h-[280px] cursor-pointer select-none group ${!isDemoFlipped ? "animate-subtle-shake" : ""}`}
                   role="button"
                   tabIndex={0}
                   aria-label="Coba kartu kosakata Yauwaika"
@@ -225,9 +216,9 @@ export default function HomePage() {
       </section>
 
       {/* ===== FRASA KUNCI YANG SERING DIGUNAKAN — DENGAN HIASAN ELEGAN TIPIS-TIPIS ===== */}
-      <div className="page-container">
-        <section className="space-y-3.5 sm:space-y-4 text-center">
-          <div className="border-b border-[#efeeea] pb-2.5 text-center">
+      <div className="w-full px-4 sm:px-6 lg:w-[80%] lg:px-0 mx-auto">
+        <section className="space-y-5 sm:space-y-6 text-center">
+          <div className="border-b border-[#efeeea] pb-3.5 text-center">
             <span className="text-[11px] sm:text-xs font-bold text-[#006a61] font-display uppercase tracking-wider block mb-0.5">
               Kosakata Pembuka
             </span>
@@ -237,12 +228,12 @@ export default function HomePage() {
           </div>
 
           {/* Grid 2 Kolom Murni — Kartu dengan Hiasan Elegan Tipis */}
-          <StaggerContainer className="grid grid-cols-2 gap-3 sm:gap-4">
+          <StaggerContainer className="grid grid-cols-2 gap-4 sm:gap-5">
             {quickPhrases.map((phrase) => (
               <StaggerItem key={phrase.enggano}>
               <div
                 key={phrase.enggano}
-                className="relative bg-gradient-to-b from-white to-[#fbf9f5] p-3.5 sm:p-5 rounded-2xl sm:rounded-3xl border border-[#efeeea] shadow-2xs hover:border-[#004532]/25 hover:shadow-xs transition-all space-y-1 sm:space-y-1.5 text-center flex flex-col items-center justify-center overflow-hidden group"
+                className="relative bg-gradient-to-b from-white to-[#fbf9f5] p-4 sm:p-6 rounded-2xl sm:rounded-3xl border border-[#efeeea] shadow-2xs hover:border-[#004532]/25 hover:shadow-xs transition-all space-y-2 sm:space-y-2.5 text-center flex flex-col items-center justify-center overflow-hidden group"
               >
                 {/* Hiasan 1: Ikon quote transparan halus di pojok kanan atas */}
                 <Quote className="absolute right-2.5 top-2.5 w-4 h-4 text-[#004532]/8 pointer-events-none group-hover:text-[#004532]/15 transition-colors" />
@@ -253,7 +244,7 @@ export default function HomePage() {
                 </span>
 
                 {/* Garis aksen hijau tipis di bagian atas kartu */}
-                <div className="w-6 h-0.5 rounded-full bg-[#004532]/15 mb-0.5 group-hover:w-10 group-hover:bg-[#004532]/35 transition-all duration-300" />
+                <div className="w-8 h-0.5 rounded-full bg-[#004532]/15 mb-1 group-hover:w-12 group-hover:bg-[#004532]/35 transition-all duration-300" />
 
                 <h3 className="font-display font-black text-base sm:text-2xl text-[#004532] tracking-tight leading-snug">
                   {phrase.enggano}
@@ -270,9 +261,9 @@ export default function HomePage() {
       </div>
 
       {/* ===== TAUTAN KE HALAMAN TENTANG PLATFORM ===== */}
-      <FadeIn className="page-container">
+      <FadeIn className="w-full px-4 sm:px-6 lg:w-[80%] lg:px-0 mx-auto">
         <div className="bg-white rounded-2xl sm:rounded-3xl border border-[#eae6df] p-5 sm:p-6 sm:px-8 flex flex-col sm:flex-row items-center justify-between gap-4 sm:gap-6 text-center sm:text-left shadow-2xs hover:border-[#006a61]/30 transition-all">
-          <div className="space-y-1 max-w-xl">
+          <div className="space-y-1">
             <span className="text-[11px] font-bold text-[#006a61] uppercase tracking-wider font-display block">
               Inisiatif Pelestarian Budaya
             </span>

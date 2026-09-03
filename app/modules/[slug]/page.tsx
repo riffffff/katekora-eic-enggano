@@ -41,7 +41,7 @@ export default async function ModuleDetailPage({ params }: ModuleDetailPageProps
       <ModuleHeader module={module} />
 
       {/* Content constrained */}
-      <div className="page-container py-8 sm:py-10 pb-12 md:pb-16">
+      <div className="py-8 sm:py-10 pb-12 md:pb-16 w-full px-4 sm:px-6 lg:w-[80%] lg:px-0 mx-auto">
         <FlashcardGrid module={module} />
       </div>
     </PageTransition>

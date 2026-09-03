@@ -21,9 +21,9 @@ export default function Button({
     "inline-flex items-center justify-center font-medium font-display transition-all duration-200 cursor-pointer select-none rounded-full active:scale-[0.98] disabled:opacity-50 disabled:pointer-events-none disabled:active:scale-100";
 
   const sizeStyles = {
-    sm: "px-4 py-2 text-sm min-h-[40px] gap-1.5",
+    sm: "px-4 py-2 text-sm min-h-[40px] gap-2",
     md: "px-6 py-3 text-base min-h-[48px] gap-2 font-semibold shadow-sm",
-    lg: "px-8 py-4 text-lg min-h-[56px] gap-2.5 font-bold shadow-md",
+    lg: "px-8 py-4 text-lg min-h-[56px] gap-2 font-bold shadow-md",
   };
 
   const variantStyles = {

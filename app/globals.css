@@ -90,7 +90,6 @@ h1, h2, h3, h4, h5, h6 {
    ===================== */
 .page-container {
   width: 100%;
-  max-width: 1280px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 1rem;
@@ -106,8 +105,15 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (min-width: 1024px) {
   .page-container {
-    padding-left: 2rem;
-    padding-right: 2rem;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (min-width: 1536px) {
+  .page-container {
+    width: 80%;
   }
 }
 
@@ -139,6 +145,15 @@ h1, h2, h3, h4, h5, h6 {
 ::-webkit-scrollbar-thumb { background: #bec9c2; border-radius: 9999px; }
 ::-webkit-scrollbar-thumb:hover { background: #6f7973; }
 
+/* Hide scrollbar for dot indicators */
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
 /* =====================
    SUBTLE SHAKE / NUDGE ANIMATION
    ===================== */
@@ -165,8 +180,4 @@ h1, h2, h3, h4, h5, h6 {
 
 .animate-subtle-shake {
   animation: subtle-shake 2s ease-in-out infinite;
-}
-
-.animate-subtle-shake:hover {
-  animation: none;
 }

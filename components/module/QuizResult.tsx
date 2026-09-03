@@ -50,7 +50,7 @@ export default function QuizResult({
   };
 
   return (
-    <div className="px-5 sm:px-6 py-6 sm:py-8 max-w-lg mx-auto">
+    <div className="px-5 sm:px-6 py-4 sm:py-6">
       <div className="space-y-6">
         {/* Header Result */}
         <div className="text-center space-y-4">
@@ -146,17 +146,17 @@ export default function QuizResult({
               <span>Ulangi Kuis</span>
             </Button>
             
-            <Link href={`/modules/${module.slug}`}>
-              <Button variant="secondary" fullWidth size="md">
+            <Link href={`/modules/${module.slug}`} className="block">
+              <Button variant="secondary" fullWidth size="md" className="w-full">
                 <BookOpen className="w-4 h-4" strokeWidth={2} />
                 <span>Belajar Flashcard</span>
               </Button>
             </Link>
             
-            <Link href="/modules">
-              <Button variant="primary" fullWidth size="lg" className="shadow-sm">
+            <Link href="/modules" className="block">
+              <Button variant="primary" fullWidth size="md" className="shadow-sm w-full">
                 <span>Modul Lainnya</span>
-                <ArrowRight className="w-5 h-5" strokeWidth={2} />
+                <ArrowRight className="w-4 h-4" strokeWidth={2} />
               </Button>
             </Link>
           </div>

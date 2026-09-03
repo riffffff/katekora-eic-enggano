@@ -181,7 +181,6 @@ export default function FlashcardGrid({ module }: { module: ModuleData }) {
           {allViewed ? (
             <>
               <div className="flex items-center justify-center sm:justify-start gap-2 mb-1">
-                <PartyPopper className="w-5 h-5 text-[#86f2e4]" />
                 <span className="text-xs font-bold uppercase tracking-wider text-[#86f2e4] font-display">
                   Semua kartu sudah dilihat!
                 </span>
@@ -205,42 +204,13 @@ export default function FlashcardGrid({ module }: { module: ModuleData }) {
           )}
         </div>
 
-        {/* Calm breathing Quiz CTA Button */}
-        <motion.div
-          animate={{
-            scale: allViewed ? [1, 1.05, 1] : [1, 1.03, 1],
-          }}
-          transition={{
-            repeat: Infinity,
-            duration: 2.6,
-            ease: "easeInOut",
-          }}
-          whileHover={{ scale: 1.06 }}
-          whileTap={{ scale: 0.96 }}
-          className="relative shrink-0 w-full sm:w-auto"
+        <Link
+          href={`/modules/${module.slug}/quiz`}
+          className="shrink-0 w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-[#faf6ee] text-[#004532] hover:bg-white hover:text-[#002d20] font-display font-black text-base rounded-full px-8 py-3.5 shadow-xl transition-all hover:scale-[1.02] active:scale-95 border border-[#eae8e4]"
         >
-          {/* Bouncing Pill Badge on Top */}
-          <motion.span
-            animate={{ y: [0, -3, 0] }}
-            transition={{ repeat: Infinity, duration: 2.2, ease: "easeInOut" }}
-            className="absolute -top-3 right-3 sm:-right-2 z-10 bg-[#86f2e4] text-[#004532] text-[10px] font-black uppercase px-2.5 py-0.5 rounded-full border border-white shadow-sm tracking-wider font-display select-none"
-          >
-            Mulai Tes
-          </motion.span>
-
-          <Link
-            href={`/modules/${module.slug}/quiz`}
-            className="relative flex items-center justify-center gap-2.5 bg-[#faf6ee] text-[#004532] hover:bg-white hover:text-[#002d20] font-display font-black text-base rounded-full px-9 py-4 shadow-xl transition-all border-2 border-white/90 group overflow-hidden"
-          >
-            <span className="tracking-tight">Mulai Kuis Modul</span>
-            <motion.span
-              animate={{ x: [0, 4, 0] }}
-              transition={{ repeat: Infinity, duration: 1.2, ease: "easeInOut" }}
-            >
-              <ArrowRight className="w-5 h-5 text-[#004532] stroke-[2.5]" />
-            </motion.span>
-          </Link>
-        </motion.div>
+          <span>Mulai Kuis Modul</span>
+          <ArrowRight className="w-5 h-5 text-[#004532]" strokeWidth={2.5} />
+        </Link>
       </div>
 
       {/* Focus Modal with Entry & Exit Animations */}
